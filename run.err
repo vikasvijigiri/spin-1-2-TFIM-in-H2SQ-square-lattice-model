@@ -1,0 +1,71 @@
+/data/docs/vikas/IT_QMC_H2SQ/ITobservables.cpp: In member function ‘void ITobservables::observables(ITlattice***, ITupdates&)’:
+/data/docs/vikas/IT_QMC_H2SQ/ITobservables.cpp:15:50: warning: unused variable ‘p’ [-Wunused-variable]
+  double k_x = 0.f, k_y = 3.14159265359f, Icl,x,y,p;
+                                                  ^
+/data/docs/vikas/IT_QMC_H2SQ/ITobservables.cpp:67:25: warning: ‘Icl’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  y=Icl/(lx * ly * 1 * M);
+                         ^
+/data/docs/vikas/IT_QMC_H2SQ/ITobservables.cpp: In member function ‘void ITobservables::pbc()’:
+/data/docs/vikas/IT_QMC_H2SQ/ITobservables.cpp:204:24: warning: ‘d2’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+    psite[k - 1][1] = d2;
+                        ^
+/data/docs/vikas/IT_QMC_H2SQ/ITobservables.cpp:203:24: warning: ‘d1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+    psite[k - 1][0] = d1;
+                        ^
+/data/docs/vikas/IT_QMC_H2SQ/ITobservables.cpp:230:24: warning: ‘y1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+    psite[k - 1][1] = y1;
+                        ^
+/data/docs/vikas/IT_QMC_H2SQ/ITobservables.cpp:229:24: warning: ‘x1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+    psite[k - 1][0] = x1;
+                        ^
+/data/docs/vikas/IT_QMC_H2SQ/ITparalleltemp.cpp: In member function ‘void ITparalleltemp::paralleltemp(int, ITupdates&)’:
+/data/docs/vikas/IT_QMC_H2SQ/ITparalleltemp.cpp:16:16: warning: unused variable ‘ti’ [-Wunused-variable]
+         double ti,tR,tL,ei,eR,eL;
+                ^
+/data/docs/vikas/IT_QMC_H2SQ/ITparalleltemp.cpp:16:19: warning: unused variable ‘tR’ [-Wunused-variable]
+         double ti,tR,tL,ei,eR,eL;
+                   ^
+/data/docs/vikas/IT_QMC_H2SQ/ITparalleltemp.cpp:16:22: warning: unused variable ‘tL’ [-Wunused-variable]
+         double ti,tR,tL,ei,eR,eL;
+                      ^
+/data/docs/vikas/IT_QMC_H2SQ/ITparalleltemp.cpp:16:25: warning: unused variable ‘ei’ [-Wunused-variable]
+         double ti,tR,tL,ei,eR,eL;
+                         ^
+/data/docs/vikas/IT_QMC_H2SQ/ITparalleltemp.cpp:16:28: warning: unused variable ‘eR’ [-Wunused-variable]
+         double ti,tR,tL,ei,eR,eL;
+                            ^
+/data/docs/vikas/IT_QMC_H2SQ/ITparalleltemp.cpp:16:31: warning: unused variable ‘eL’ [-Wunused-variable]
+         double ti,tR,tL,ei,eR,eL;
+                               ^
+/data/docs/vikas/IT_QMC_H2SQ/ITparalleltemp.cpp:17:13: warning: unused variable ‘ii’ [-Wunused-variable]
+         int ii,iR,i,idi,idr,idlL, inc;
+             ^
+/data/docs/vikas/IT_QMC_H2SQ/ITparalleltemp.cpp:17:16: warning: unused variable ‘iR’ [-Wunused-variable]
+         int ii,iR,i,idi,idr,idlL, inc;
+                ^
+/data/docs/vikas/IT_QMC_H2SQ/ITparalleltemp.cpp:17:19: warning: unused variable ‘i’ [-Wunused-variable]
+         int ii,iR,i,idi,idr,idlL, inc;
+                   ^
+/data/docs/vikas/IT_QMC_H2SQ/ITparalleltemp.cpp:17:21: warning: unused variable ‘idi’ [-Wunused-variable]
+         int ii,iR,i,idi,idr,idlL, inc;
+                     ^
+/data/docs/vikas/IT_QMC_H2SQ/ITparalleltemp.cpp:17:25: warning: unused variable ‘idr’ [-Wunused-variable]
+         int ii,iR,i,idi,idr,idlL, inc;
+                         ^
+/data/docs/vikas/IT_QMC_H2SQ/ITparalleltemp.cpp:17:29: warning: unused variable ‘idlL’ [-Wunused-variable]
+         int ii,iR,i,idi,idr,idlL, inc;
+                             ^
+/data/docs/vikas/IT_QMC_H2SQ/ITparalleltemp.cpp:17:35: warning: unused variable ‘inc’ [-Wunused-variable]
+         int ii,iR,i,idi,idr,idlL, inc;
+                                   ^
+/data/docs/vikas/IT_QMC_H2SQ/ITparalleltemp.cpp:24:13: warning: unused variable ‘BSIZE’ [-Wunused-variable]
+  const auto BSIZE = std::extent<decltype(Ene)>::value;  
+             ^
+/data/docs/vikas/IT_QMC_H2SQ/main.cpp: In function ‘int main()’:
+/data/docs/vikas/IT_QMC_H2SQ/main.cpp:173:67: warning: ‘t1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   std::cout << "Total time taken by the process is about " << (t2 - t1) / 60 << " minutes approx" << std::endl;
+                                                                   ^
+
+real	13m28.846s
+user	295m41.340s
+sys	0m21.909s
